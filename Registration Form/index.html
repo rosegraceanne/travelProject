@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>Advising Appointment</h2>
+    <div class="container">
+		<form method="get" action="thankyou.html">
+			<fieldset>
+				<legend>
+				Contact Information
+				</legend>
+				<label for="fName">
+				Name:
+					<input id="fName" type="text" placeholder ="First Name" required name="fName"/>
+				</label>
+				
+				<label for="lName">
+				Last Name:
+					<input autofocus id="lName" type="text" placeholder ="Last Name" required name="lName"/>
+				</label>
+				<label for="email">
+				Email:
+					<input id="email" type="email" placeholder ="Email" required name="email" />
+				</label>
+					
+				</fieldset>
+		</form>
+
+		<form>
+			<fieldset>
+			<legend>
+			Reservation Request
+			</legend>
+			<label>
+				<select name="Professors">
+					<option value="Kirsten Markely">Kirsten Markely</option>
+					<option value="Tiffany Ford">Tiffany Ford</option>
+					<option value="Renee Riley">Renee Riley</option>
+				</select>
+				
+				<select name="Month">
+					<option value="January">January</option>
+					<option value="February">February</option>
+					<option value="March">March</option>
+					<option value="April">April</option>
+					<option value="May">May</option>
+					<option value="June">June</option>
+					<option value="July">July</option>
+					<option value="August">August</option>
+					<option value="September">September</option>
+					<option value="October">October</option>
+					<option value="November">November</option>
+					<option value="December">December</option>
+				</select>
+				
+				<label>
+					<input type="Radio" name="Time" value="AM"> AM <br>
+					<input type="Radio" name="Time" value="PM"> PM 
+				</label>
+			</label>
+			</fieldset>
+		</form>
+		
+		<form>
+		<fieldset>
+			<legend>
+			Select Classes you Want To Take Next Semester
+			</legend>
+			<label class="info">
+			Java
+				<input type="checkbox" name="Class" value="Java" /> <br>
+			C#
+				<input type="checkbox" name="Class" value="C#" />  <br>
+			Web Dev
+				<input type="checkbox" name="Class" value="Web Dev" /> <br>
+			Database
+				<input type="checkbox" name="Class" value="Database" /> <br>
+			System Analysis & Design
+				<input type="checkbox" name="Class" value="System Analysis & Design" /> <br>
+			</label>
+			</fieldset>
+		</form>
+		
+		<form>
+			<fieldset>
+			<legend>
+			Additional Info
+			</legend>
+			<label>
+				<textarea name="info" rows="6" cols="50" placeholder="Any Additional Info"></textarea>
+			</label>
+			</fieldset>
+			<input class="submit" type="submit" value="Submit" />
+		</form>
+    </div>
+
+  </body>
+</html>
