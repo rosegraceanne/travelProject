@@ -15,7 +15,7 @@
 				</legend>
 				<label for="fName">
 				Name:
-					<input id="fName" type="text" placeholder ="First Name" required name="fName"/>
+					<input id="fName" type="text" placeholder ="First Name" required name="fName" size="50"/>
 				</label>
 				
 				<label for="lName">
@@ -36,13 +36,22 @@
 			Ticket Reservation
 			</legend>
 			<label>
+				<select name="Flight" >
+					<option value="Flight" placeholder="Flight">Flight</option>
+					<option value="flight 555 " placeholder="Flight 555">Flight 555</option>
+					<option value="flight 492 " placeholder="Flight 492">Flight 492</option>
+					<option value="flight 261 " placeholder="Flight 261">Flight 261</option>
+				</select>
 				<select name="Destination">
+					<option value="Destination">Destination</option>
+					<option value="Grand Teton National Park">Grand Teton National Park</option>
 					<option value="Austrailia">Austrailia</option>
 					<option value="London">London</option>
 					<option value="Italy">Italy</option>
 				</select>
 				
 				<select name="Month">
+					<option value="Month">Month</option>
 					<option value="January">January</option>
 					<option value="February">February</option>
 					<option value="March">March</option>
@@ -58,6 +67,7 @@
 				</select>
 				
 				<select name="Day">
+					<option value="Day">Day</option>
 					<option value="1">1</option>
 					<option value="2">2</option>
 					<option value="3">3</option>
@@ -98,36 +108,22 @@
 		<form>
 		<fieldset>
 			<legend>
-			Select Classes you Want To Take Next Semester
+			Hotels
 			</legend>
 			<label class="info">
-			Java
-				<input type="checkbox" name="Class" value="Java" /> <br>
-			C#
-				<input type="checkbox" name="Class" value="C#" />  <br>
-			Web Dev
-				<input type="checkbox" name="Class" value="Web Dev" /> <br>
-			Database
-				<input type="checkbox" name="Class" value="Database" /> <br>
-			System Analysis & Design
-				<input type="checkbox" name="Class" value="System Analysis & Design" /> <br>
+			Flat Creek Inn & Mart
+				<input type="radio" name="Hotel" value="Flat Creek Inn & Mart" /> <br>
+			Jackson Lake Lodge
+				<input type="radio" name="Hotel" value="Jackson Lake Lodge" />  <br>
+			Embassy Suites
+				<input type="radio" name="Hotel" value="Embassy Suites" /> <br>
+			Hilton
+				<input type="radio" name="Hotel" value="Hilton" /> <br>
+			Hotel 41
+				<input type="radio" name="Hotel" value="Hotel 41" /> <br>
 			</label>
 			</fieldset>
 		</form>
-		
-		<form>
-			<fieldset>
-			<legend>
-			Additional Info
-			</legend>
-			<label>
-				<textarea name="info" rows="6" cols="50" placeholder="Any Additional Info"></textarea>
-			</label>
-			</fieldset>
-			<input class="submit" type="submit" value="Submit" />
-		</form>
-		
-		
 		
     </div>
 	
