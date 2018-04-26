@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="styles.css" href="NewStylesheet" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="NewStylesheet.css" >
+	<link rel="stylesheet" href="styles.css"  >
   </head>
   <body>
     <h1>Ticket Form</h1>
@@ -15,12 +17,12 @@
 				</legend>
 				<label for="fName">
 				Name:
-					<input id="fName" type="text" placeholder ="First Name" required name="fName" size="50"/>
+					<input autofocus id="fName" type="text" placeholder ="First Name" required name="fName" size="50"/>
 				</label>
 				
 				<label for="lName">
 				Last Name:
-					<input autofocus id="lName" type="text" placeholder ="Last Name" required name="lName"/>
+					<input  id="lName" type="text" placeholder ="Last Name" required name="lName"/>
 				</label>
 				<label for="email">
 				Email:
@@ -29,6 +31,7 @@
 					
 				</fieldset>
 		</form>
+		
 
 		<form>
 			<fieldset>
@@ -121,10 +124,14 @@
 				<input type="radio" name="Hotel" value="Hilton" /> <br>
 			Hotel 41
 				<input type="radio" name="Hotel" value="Hotel 41" /> <br>
+				
 			</label>
 			</fieldset>
+			<input class="submit" type="submit" value="Submit" />
 		</form>
 		
+		
+	
     </div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
