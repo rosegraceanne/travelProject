@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="NewStylesheet.css" >
+	<link rel="stylesheet" href="styles.css"  >
+		<link href="https://fonts.googleapis.com/css?family=Abel|Cinzel+Decorative" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Ticket Form</h1>
+		<nav>
+			<a href ="index.html">Home</a> 
+			<a href ="purchase.html">Purchase Tickets</a>
+		</nav>
+    <div class="container">
+		<form method="get" action="thankyou.html">
+			<fieldset>
+				<legend>
+				Contact Information
+				</legend>
+				<label for="fName">
+				Name:
+					<input autofocus id="fName" type="text" placeholder ="First Name" required name="fName" size="50"/>
+				</label>
+				
+				<label for="lName">
+				Last Name:
+					<input  id="lName" type="text" placeholder ="Last Name" required name="lName"/>
+				</label>
+				<label for="email">
+				Email:
+					<input id="email" type="email" placeholder ="Email" required name="email" />
+				</label>
+					
+				</fieldset>
+		</form>
+		
+
+		<form>
+			<fieldset>
+			<legend>
+			Ticket Reservation
+			</legend>
+			<label>
+				<select name="Flight" >
+					<option value="Flight" placeholder="Flight">Flight</option>
+					<option value="flight 555 " placeholder="Flight 555">Flight 555</option>
+					<option value="flight 492 " placeholder="Flight 492">Flight 492</option>
+					<option value="flight 261 " placeholder="Flight 261">Flight 261</option>
+				</select>
+				<select name="Destination">
+					<option value="Destination">Destination</option>
+					<option value="Grand Teton National Park">Grand Teton National Park</option>
+					<option value="Austrailia">Austrailia</option>
+					<option value="London">London</option>
+					<option value="Italy">Italy</option>
+				</select>
+				
+				<select name="Month">
+					<option value="Month">Month</option>
+					<option value="January">January</option>
+					<option value="February">February</option>
+					<option value="March">March</option>
+					<option value="April">April</option>
+					<option value="May">May</option>
+					<option value="June">June</option>
+					<option value="July">July</option>
+					<option value="August">August</option>
+					<option value="September">September</option>
+					<option value="October">October</option>
+					<option value="November">November</option>
+					<option value="December">December</option>
+				</select>
+				
+				<select name="Day">
+					<option value="Day">Day</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+				</select>
+				
+			</label>
+			</fieldset>
+		</form>
+		
+		<form>
+		<fieldset>
+			<legend>
+			Hotels
+			</legend>
+			<label class="info">
+			Flat Creek Inn & Mart
+				<input type="radio" name="Hotel" value="Flat Creek Inn & Mart" /> <br>
+			Jackson Lake Lodge
+				<input type="radio" name="Hotel" value="Jackson Lake Lodge" />  <br>
+			Embassy Suites
+				<input type="radio" name="Hotel" value="Embassy Suites" /> <br>
+			Hilton
+				<input type="radio" name="Hotel" value="Hilton" /> <br>
+			Hotel 41
+				<input type="radio" name="Hotel" value="Hotel 41" /> <br>
+				
+			</label>
+			</fieldset>
+			<input class="submit" type="submit" value="Submit" />
+		</form>
+		
+		
+	
+    </div>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+  crossorigin="anonymous"></script>
+  </body>
+</html>

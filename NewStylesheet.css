@@ -4,6 +4,28 @@
 }
 
 body {
-  background-image:url(background.jpg);
-  background-size: cover;
-  background-attachment:fixed;
+	background-color:#d1e2ff;
+	margin: auto;
+}
+nav{
+	text-align:center;
+	color:
+}
+h2{
+	font-family: 'Abel', sans-serif;
+}
+h1{
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 500%;
+	text-align: center;
+}
+nav{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+a{
+	
+	border-radius: 25px;
+    background: white;
+    padding: 20px; 
+}
